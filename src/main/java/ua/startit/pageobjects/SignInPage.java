@@ -11,12 +11,12 @@ public class SignInPage {
     private By signUpButton = By.id("auth-create-account-link");
 
     public SignInPage setUsername(String username) {
-        $(username).setValue(username);
+        $(this. username).setValue(username);
         return this;
     }
 
     public SignInPage setPassword(String password) {
-        $(password).setValue(password);
+        $(this.password).setValue(password);
         return this;
     }
 
